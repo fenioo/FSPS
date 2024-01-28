@@ -1,0 +1,46 @@
+th{
+    border:1px solid #ffe812;
+    vertical-align: middle;
+    text-align: center
+}
+table td{
+    border:1px solid #ffe812;
+    vertical-align: middle;
+    text-align: center
+}
+#smallWindow {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+#smallWindowContent {
+    background:#eeeeee;
+    width: 22%;
+    z-index: 100;
+    margin: 12% auto;
+    overflow: auto;
+}
+span {
+    color: white;
+    padding-top: 12px;
+    cursor: pointer;
+    padding-right: 15px;
+}
+#contentdiv {
+    background:#eeeeee;
+    margin: auto;
+    height: 280px;
+    padding: 0 20px;
+}
+#closediv {
+    padding: 1px;
+    background: #afbba9;
+}
+#closebtn {
+    float: right;
+    font-size: 40px;
+}
